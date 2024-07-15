@@ -1,0 +1,80 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: blue;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#hero {
+    background: pink;
+    color: #333;
+    padding: 3em 0;
+    text-align: center;
+}
+
+#hero .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background: black;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#about, #services, #contact {
+    padding: 2em 0;
+    text-align: center;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+}
+
+.service {
+    background: grey;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+footer {
+    background: blue;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
